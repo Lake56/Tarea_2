@@ -1,6 +1,6 @@
 class Nota{
     private String Contnido;
-    public Contenido(){
+    public String Contenido(){
+        return "";
     }
-
 }
