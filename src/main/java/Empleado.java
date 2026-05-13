@@ -1,5 +1,5 @@
 class Empleado{
-    private String id;
+    private String Id;
     private String Apellidos;
     private String Nombre;
     private String Correo;
@@ -7,6 +7,9 @@ class Empleado{
         this.Nombre=nombre;
         this.Apellidos=apellidos;
         this.Correo=correo;
-        this.id=id;
+        this.Id=id;
+    }
+    public String getId(){
+        return Id;
     }
 }
