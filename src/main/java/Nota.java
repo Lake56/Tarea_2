@@ -1,6 +1,8 @@
 class Nota{
-    private String Contnido;
-    public String Contenido(){
+    private String Contenido;
+    public Nota(){
+    }
+    public String getContenido(){
         return "";
     }
 }
