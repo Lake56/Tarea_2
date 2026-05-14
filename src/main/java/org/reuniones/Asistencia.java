@@ -1,4 +1,4 @@
-package org.example;
+package org.reuniones;
 
 public class Asistencia {
 

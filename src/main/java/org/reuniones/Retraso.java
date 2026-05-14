@@ -1,4 +1,4 @@
-package org.example;
+package org.reuniones;
 
 import java.time.Instant;
 
