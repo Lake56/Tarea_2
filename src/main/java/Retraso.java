@@ -1,8 +1,6 @@
-package org.reuniones;
-
 import java.time.Instant;
 
-public class Retraso extends  Asistencia {
+public class Retraso extends Asistencia {
     private Instant hora = Instant.now();
 
     public Instant getHora() {
