@@ -20,4 +20,33 @@ public class Invitacion {
         this.reunion = reunion;
     }
 
+
+
+    //getters y setters
+    public Instant getHora() {
+        return hora;
+    }
+    public void setHora(Instant hora) {
+        this.hora = hora;
+    }
+
+    public Invitable getInvitado() {
+        return invitado;
+    }
+    public void setInvitado(Invitable invitado) {
+        this.invitado = invitado;
+    }
+
+    public Reunion getReunion() {
+        return reunion;
+    }
+    public void setReunion(Reunion reunion) {
+        this.reunion = reunion;
+    }
+
+    //tostring
+    @Override
+    public String toString() {
+        return "Invitacion= "+"hora:" + hora + ", reunion:" + reunion.toString()".";
+    }
 }
