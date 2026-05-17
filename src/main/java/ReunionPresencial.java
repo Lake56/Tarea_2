@@ -5,7 +5,7 @@ public class ReunionPresencial extends Reunion {
     private String sala;
 
     public ReunionPresencial(java.time.LocalDate fecha, Instant horaPrevista,
-                             Duration duracionPrevista, TipoReunion tipoReunion,
+                             Duration duracionPrevista, tipoReunion tipoReunion,
                              Empleado organizador, String sala) {
         super(fecha, horaPrevista, duracionPrevista, tipoReunion, organizador);
         this.sala= sala;
