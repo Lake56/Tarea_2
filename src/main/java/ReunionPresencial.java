@@ -8,6 +8,11 @@ public class ReunionPresencial extends Reunion {
                              Duration duracionPrevista, tipoReunion tipoReunion,
                              Empleado organizador, String sala) {
         super(fecha, horaPrevista, duracionPrevista, tipoReunion, organizador);
+
+        if (sala==null) {
+            throw new IllegalArgumentException("Error, la sala no puede ser nula");
+        }
+
         this.sala= sala;
     }
 
@@ -16,6 +21,10 @@ public class ReunionPresencial extends Reunion {
         return sala;
     }
     public void setSala(String sala) {
+        if (sala==null) {
+            throw new IllegalArgumentException("Error, la sala no puede ser nula");
+        }
+
         this.sala = sala;
     }
 }
